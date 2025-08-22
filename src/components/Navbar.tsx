@@ -21,7 +21,7 @@ const Navbar: React.FC<NavbarProps> = ({ user }) => {
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2 text-white hover:text-purple-300 transition-colors">
-            <img src={logo} alt="Logo" className="h-8 w-8 rounded-full" />
+            <div><img src={logo} alt="Logo" className="w-10 h-10" /></div>
             <span className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
               myPAILES
             </span>
